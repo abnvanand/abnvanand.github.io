@@ -1,0 +1,7 @@
+baseURL: https://abnvanand.github.io/
+languageCode: en-us
+title: The Tech Underbelly
+theme: PaperMod
+taxonomies:
+  category: categories
+  tag: tags
