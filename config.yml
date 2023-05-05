@@ -18,3 +18,28 @@ outputs:
   - HTML
   - RSS
   - JSON # is necessary
+
+# Add custom menu items.
+# Source: https://github.com/adityatelange/hugo-PaperMod/issues/129#issuecomment-744309373
+menu:
+  main:
+  - identifier: tags
+    name: tags
+    url: /tags/
+    weight: 20
+  - identifier: categories
+    name: categories
+    url: /categories/
+    weight: 10
+  # - identifier: series
+  #   name: series
+  #   url: /series/
+  #   weight: 10
+  - identifier: archives
+    name: archives
+    url: /archives/
+    weight: 30
+  - identifier: search
+    name: search
+    url: /search/
+    weight: 40
