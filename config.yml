@@ -5,3 +5,16 @@ theme: PaperMod
 taxonomies:
   category: categories
   tag: tags
+  series: series
+
+##### theme hugo-PaperMod configs
+params:
+  defaultTheme: auto # to switch between dark or light according to browser theme
+  ShowCodeCopyButtons: true
+
+# Add search page https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON # is necessary
